@@ -39,10 +39,10 @@ export default function Textform(props) {
 
   const [text, setText] = useState('Enter text here');
 
-  const [style, setStyle] = useState({
-    color: 'black',
-    backgroundColor: 'white' 
-  });
+  // const [style, setStyle] = useState({
+  //   color: 'black',
+  //   backgroundColor: 'white' 
+  // });
 
   // const handleColorclick = ()=>{
   //   if(style.color === 'black'){ 
