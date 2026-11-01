@@ -1,0 +1,7 @@
+[build]
+  command = "npm run build"
+  publish = "build"
+
+[build.environment]
+  # package.json "homepage" points to GitHub Pages (/Text-Utils); serve from the root on Netlify
+  PUBLIC_URL = "/"
